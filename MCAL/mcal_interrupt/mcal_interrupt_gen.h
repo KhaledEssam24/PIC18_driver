@@ -1,0 +1,28 @@
+/* 
+ * File:   mcal_interrupt_gen.h
+ * Author: El-Rehab
+ *
+ * Created on August 21, 2022, 2:47 PM
+ */
+
+#ifndef MCAL_INTERRUPT_GEN_H
+#define	MCAL_INTERRUPT_GEN_H
+
+#define ENABLE                        1U
+#define INTERRUPT_FEATURE             ENABLE
+
+#if INTERRUPT_FEATURE==ENABLE
+#define INTERRUPT_PRIORITY_FEATURE    ENABLE
+//#define INTERRUPT_EXTINT_FEATURE      ENABLE
+//#define INTERRUPT_ADC_FEATURE         ENABLE
+#define INTERRUPT_TIMER0_FEATURE      ENABLE
+#define INTERRUPT_TIMER1_FEATURE      ENABLE
+#define INTERRUPT_TIMER2_FEATURE      ENABLE
+#define INTERRUPT_TIMER3_FEATURE      ENABLE
+#define INTERRUPT_CCP1_FEATURE        ENABLE
+#define INTERRUPT_CCP2_FEATURE        ENABLE
+
+
+#endif
+#endif	/* MCAL_INTERRUPT_GEN_H */
+
